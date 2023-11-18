@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 8px;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: royalblue;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #333;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #555;
+}
+
+.nav-item {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #555;
+    text-align: center;
+
+}
+
+/* Estilos para encabezados y párrafos */
+h1, h2 {
+    margin: 20px;
+    color: #333333;
+}
+
+p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Estilos para imágenes */
+.about-img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
